@@ -7,10 +7,6 @@ export default function Home() {
       <Header />
       <div className="grid md md:grid-cols-3 gap-2 pb-10 grid-cols-1">
         <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
       </div>
     </section>
   );
