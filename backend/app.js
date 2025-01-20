@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors");
 require("dotenv").config();
 const connectDB = require("./database/db");
+const postRouter = require("./routes/postRouter")
 
 
 app.use(express.json());
@@ -16,9 +17,9 @@ connectDB();
 
 
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+
+
+app.use("/api/post", postRouter)
 
 
 app.listen(process.env.PORT, (req, res) => {
