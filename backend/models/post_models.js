@@ -21,6 +21,14 @@ const PostSchema = new mongoose.Schema({
   content: {
     type: String,
     required: true
+  },
+  publisher: {
+    type: String,
+    required: true
+  },
+  Date: {
+    type: Date,
+    default: Date.now
   }
 }, { timestamps: true });
 

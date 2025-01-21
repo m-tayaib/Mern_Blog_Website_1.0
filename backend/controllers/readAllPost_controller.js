@@ -1,6 +1,10 @@
 const PostSchema = require("../models/post_models")
-const ReadAllPost = (req, res) => {
-  console.log("Route is running!");
+const ReadAllPost = async (req, res) => {
+  const post = await PostSchema.find()
+  res.json({
+    success: true,
+    post
+  })
 };
 
 
