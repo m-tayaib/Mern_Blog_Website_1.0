@@ -2,7 +2,6 @@ import { Link, useLocation } from "react-router";
 
 export default function Navbar() {
   const location = useLocation();
-  console.log(location.pathname);
   return (
     <nav className="flex items-center justify-end gap-3 px-10 py-7 h-[40px]">
       <Link

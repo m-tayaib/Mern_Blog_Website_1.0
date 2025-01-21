@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/image.png";
+import { Link } from "react-router";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 export default function BlogCard() {
@@ -17,10 +18,12 @@ export default function BlogCard() {
         <h2 className="leading-[32px] text-[#101828] font-semibold text-[24px] ">
           UX review presentations
         </h2>{" "}
-        <MdOutlineArrowOutward
-          fontSize={20}
-          className="cursor-pointer hover:text-[#6941C6] hover:-translate-y-1 hover:scale-125 transition-all 2s"
-        />
+        <Link to={`/postShow/12345678qwsazxdrv`}>
+          <MdOutlineArrowOutward
+            fontSize={20}
+            className="cursor-pointer hover:text-[#6941C6] hover:-translate-y-1 hover:scale-125 transition-all 2s"
+          />
+        </Link>
       </div>
       <p className="text-[16px] text-[#667085] mt-3 font-normal  leading-[20px]">
         How do you create compelling presentations that wow your colleagues and

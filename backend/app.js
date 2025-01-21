@@ -8,10 +8,7 @@ const postRouter = require("./routes/postRouter")
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cors({
-  origin: process.env.Frontend_Url,
-  credentials: true
-}));
+app.use(cors());
 
 connectDB();
 
