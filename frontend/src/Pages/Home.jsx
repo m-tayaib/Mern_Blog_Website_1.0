@@ -7,16 +7,14 @@ export default function Home() {
   useEffect(() => {
     const getAllPost = async () => {
       const res = await axios.get("http://localhost:3000/api/post/readPost");
-      console.log(res);
       setPostData(res.data.post);
     };
 
     getAllPost();
   }, []);
-  console.log(postData);
 
   return (
-    <section className="md:h-screen container  ">
+    <section className="md:h-screen container  font-serif ">
       <Header />
       <div className="grid md md:grid-cols-3 gap-2 pb-10 grid-cols-1">
         {postData.length === 0 && (

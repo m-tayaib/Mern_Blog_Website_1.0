@@ -13,5 +13,4 @@ Router.get("/readPost", readAllPost);
 Router.get("/postShow/:id", ReadPost)
 
 
-
 module.exports = Router;

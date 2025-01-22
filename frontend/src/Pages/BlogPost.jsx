@@ -90,7 +90,7 @@ export default function BlogPost() {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-b from-[#F9F5FF] to-[#E8E4F6] py-16 px-8 flex justify-center items-center">
+    <section className="min-h-screen font-serif bg-gradient-to-b from-[#F9F5FF] to-[#E8E4F6] py-16 px-8 flex justify-center items-center">
       <div className="w-full max-w-5xl bg-white shadow-2xl rounded-lg p-12">
         <div className="mb-10 text-center border-b pb-6">
           <h1 className="text-3xl font-bold text-[#4A3F90]">
