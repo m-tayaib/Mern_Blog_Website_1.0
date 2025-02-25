@@ -4,7 +4,6 @@
 
 ## 📷 Project Demo
 🔗 **Live Demo:** [Click Here](https://www.linkedin.com/feed/update/urn:li:activity:7287893769918500865/)  
-🔗 **GitHub Repository:** [Click Here](https://github.com/developer-tayab/Mern_Blog_Website_1.0.git)  
 
 ## ✨ Features
 ✅ **Create & Manage Blogs** – Users can add, edit, and delete their blog posts.  
